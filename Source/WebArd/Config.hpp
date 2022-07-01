@@ -1,6 +1,8 @@
 #ifndef Header_Config
 #define Header_Config
 
+#include <Arduino.h>
+
 #define DEBUG
 
 

@@ -1,8 +1,10 @@
 
-#include "ESP8266.hpp"
+#include "../ESP8266.hpp"
+#include "../Config.hpp"
+#include <Arduino.h>
 
 
-void initializeWifi(){
+void initializeWiFi(){
 
     sendData("AT+RST\r\n",2000);
 

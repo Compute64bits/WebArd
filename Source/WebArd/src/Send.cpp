@@ -1,6 +1,7 @@
 
-#include "ESP8266.hpp"
-#include "Config.hpp"
+#include "../ESP8266.hpp"
+#include "../Config.hpp"
+#include <Arduino.h>
 
 
 #ifdef DEBUG
