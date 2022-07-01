@@ -1,7 +1,6 @@
 
 #include "Config.hpp"
 #include "ESP8266.hpp"
-#include <SoftwareSerial.h>
 
 
 /*
@@ -33,8 +32,9 @@ void loop(){
     if(!esp8266.find("+IPD,"))
         return;
 
+
     const int connection = sessionId();
 
     serveWebsite(webpage);
-    closeClient(connectionId);
+    closeSession(connection);
 }

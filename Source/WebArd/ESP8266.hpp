@@ -1,6 +1,8 @@
 #ifndef Header_ESP8266
 #define Header_ESP8266
 
+#include <SoftwareSerial.h>
+
 
 extern SoftwareSerial esp8266;
 
@@ -9,7 +11,7 @@ extern SoftwareSerial esp8266;
  *  @brief Sends a close request to the client.
  */
 
-void closeClient(int connection);
+void closeSession(int connection);
 
 
 /**
@@ -37,7 +39,7 @@ int sessionId();
  *  @brief Serves the given website over WiFi.
  */
 
-void serveWebsite(String page);
+void serveWebsite(int connection,String page);
 
 
 #endif
