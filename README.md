@@ -1,5 +1,5 @@
 
-# WebArd [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# WebArd   [![Badge License]][License]
 
 *A fast and easy way of hosting* <br>
 *your website on your **Arduino**.*
@@ -17,4 +17,7 @@
 
 <!----------------------------------------------------------------------------->
 
+[Badge License]: https://img.shields.io/badge/License-Unknown-808080.svg?style=for-the-badge
+
 [Schematic]: Resources/Schematic.png
+[License]: #
