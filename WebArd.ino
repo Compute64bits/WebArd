@@ -1,8 +1,9 @@
 #include <SoftwareSerial.h>
-SoftwareSerial esp8266(2, 3);
 #define serialCommunicationSpeed 115200
 
-#define DEBUG true
+#define DEBUG false
+SoftwareSerial esp8266(2, 3); // RX and TX
+
 String UUID = "Livebox-XXXX";
 String PASSWORD = "1234";
 
