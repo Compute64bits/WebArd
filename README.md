@@ -1,9 +1,20 @@
-# WebArd
 
-Host your website at home in your arduino with WebArd !<br>
-It's easy and fast !
+# WebArd   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+*A fast and easy way of hosting* <br>
+*your website on your **Arduino**.*
+
 <br>
 
-# Wiring shema
+<div align = center>
 
-<img src="https://github.com/Loyerss/WebArd/blob/main/shema.png">
+![Schematic]
+
+</div>
+
+<br>
+
+
+<!----------------------------------------------------------------------------->
+
+[Schematic]: Resources/Schematic.png
