@@ -16,7 +16,7 @@
 
 <!----------------------------------------------------------------------------->
 
-[Badge License]: https://img.shields.io/badge/License-Unknown-808080.svg?style=for-the-badge
+[Badge License]: https://img.shields.io/badge/License-GPL_3-blue.svg?style=for-the-badge
 
 [Schematic]: Resources/Schematic.png
-[License]: #
+[License]: LICENSE
